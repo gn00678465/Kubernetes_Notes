@@ -7,3 +7,6 @@
 - <p style="font-size: 20px; font-weight: bold; color: #0db7ed;">Docker Compose</p>
 	- [[Docker-compose/config/ports]]
 - <p style="font-size: 20px; font-weight: bold; color: #3970e4;">Kubernetes</p>
+	- [[K8S/觀念/Master Node]]
+	- [[K8S/觀念/Pod]]
+	- [[K8S/minikube 相關指令]]
