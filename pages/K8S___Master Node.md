@@ -1,6 +1,6 @@
 category:: Kubernetes
 type:: #K8S
-alias:: 觀念 - Master Node
+alias:: K8S - Master Node
 
 - ## 結構
 	- **Master Node**
