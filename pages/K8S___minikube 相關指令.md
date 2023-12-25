@@ -3,9 +3,11 @@ type:: #K8S, #minikube
 alias:: minikube 相關指令
 
 - **建立 cluster**
-	- `minikube start --driver docker`
+	- `minikube start --driver=docker`
 		- **driver**: `docker` | `hyperv`
 	- `minikube status`
+	- `minikube dashboard`
+		- Integrated support for the [Kubernetes Dashboard UI](https://github.com/kubernetes/dashboard).
 - **查看所有 pods**
 	- `minikube kubectl -- get po -A`
 - **查看實際運算節點**
