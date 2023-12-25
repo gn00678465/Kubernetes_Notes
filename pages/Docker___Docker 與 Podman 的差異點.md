@@ -3,10 +3,7 @@ type:: #Docker
 alias:: Docker 與 Podman 的差異點
 
 - ## 架構圖
-	- **Docker**
-		- ![pasted-85.png](../assets/pasted-85_1676044478375_0.png){:height 369, :width 521}
-	- **Podman**
-		- ![pasted-86.png](../assets/pasted-86_1676044521027_0.png)
+	- ![docker_v_s_podman.webp](../assets/docker_v_s_podman_1703464016863_0.webp)
 - ## 差異點
 	- 沒有 daemon, 預防單點故障(SPOF,Single Point of Failure)
 		- Podman 並不是透過 daemon 服務的方式去跟 kernel 溝通。
