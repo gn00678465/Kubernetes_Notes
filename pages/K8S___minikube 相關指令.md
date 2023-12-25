@@ -2,9 +2,12 @@ category:: Kubernetes
 type:: #K8S, #minikube
 alias:: minikube 相關指令
 
-- **建立 Cluster**
+- **建立 cluster**
 	- `minikube start --driver docker`
+		- **driver**: `docker` | `hyperv`
 	- `minikube status`
+- **查看所有 pods**
+	- `minikube kubectl -- get po -A`
 - **查看實際運算節點**
 	- `minikube kubectl -- get nodes`
 	- `minikube kubectl -- describe nodes <node_name>`
@@ -18,9 +21,11 @@ alias:: minikube 相關指令
 	- `minikube kubectl -- expose deployment <pod_name> --port=<port>`
 	- `minikube kubectl -- get services`
 	- `minikube kubectl -- describe <service_name>`
-- 開放 cluster 連線到外部
+- **開放 cluster 連線到外部**
+	- `minikube kubectl service <service_name>`
+	- or
 	- `minikube kubectl -- port-forward service/<service_name> <port>:<service_ port>`
-- 關閉開放到外部的 cluster 連線
+- **關閉開放到外部的 cluster 連線**
 	- `kill [kubectl_PID]`
 - **刪除 service**
 	- `minikube kubectl -- delete service <service_name>`
