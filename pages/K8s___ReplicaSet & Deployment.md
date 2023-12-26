@@ -67,6 +67,6 @@ alias:: K8s - ReplicaSet & Deployment
 		- **minikube 指令**:
 			- 建立: ((658a2340-80db-4269-a93a-5744f9df64e3))
 			- 檢視: ((658984c2-eddf-4bf2-986f-c1abaf13c021))
-			- 移除: `minikube kubectl -- delete deploymnt --all`
+			- 移除: ((658984c2-a191-4df6-9e6d-45e6689c1283))
 - ## Reference
 	- [[Kubernetes] ReplicaSet 介紹](https://godleon.github.io/blog/Kubernetes/k8s-ReplicaSet-Overview/)

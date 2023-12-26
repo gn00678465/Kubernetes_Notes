@@ -45,6 +45,7 @@ alias:: minikube 相關指令
 - **刪除 deployments**
 	- `minikube kubectl -- delete deployment <deploymant_name>`
 	- `minikube kubectl -- delete deployments --all`
+	  id:: 658984c2-a191-4df6-9e6d-45e6689c1283
 - **刪除 cluster**
 	- `minikube stop`
 	- `minikube delete`

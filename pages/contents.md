@@ -11,3 +11,4 @@
 	- [[K8s/Pod]]
 	- [[K8s/minikube 相關指令]]
 	- [[K8s/ReplicaSet & Deployment]]
+	- [[K8s/Service]]
