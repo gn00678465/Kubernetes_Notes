@@ -1,5 +1,5 @@
 category:: Kubernetes
 type:: #K8s, #Service
-alias:: K8s - Service - Node Port
+alias:: K8s - Service - NodePort
 
 -
