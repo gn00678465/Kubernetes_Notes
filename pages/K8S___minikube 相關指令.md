@@ -8,11 +8,11 @@ alias:: minikube 相關指令
 	- `minikube status`
 	- `minikube dashboard`
 		- Integrated support for the [Kubernetes Dashboard UI](https://github.com/kubernetes/dashboard).
-- **查看所有 pods**
-	- `minikube kubectl -- get po -A`
 - **查看實際運算節點**
 	- `minikube kubectl -- get nodes`
 	- `minikube kubectl -- describe nodes <node_name>`
+- **查看所有 pods**
+	- `minikube kubectl -- get po -A`
 - **部署 deployments**
 	- `minikube kubectl -- create deployment <deployment_name> --image=<image>`
 	- `minikube kubectl -- get deployments`
@@ -46,6 +46,8 @@ alias:: minikube 相關指令
 	- `minikube kubectl -- delete deployment <deploymant_name>`
 	- `minikube kubectl -- delete deployments --all`
 	  id:: 658984c2-a191-4df6-9e6d-45e6689c1283
+- **刪除所有資源**
+	- `minikube kubectl -- delete all --all`
 - **刪除 cluster**
 	- `minikube stop`
 	- `minikube delete`

@@ -9,3 +9,4 @@ alias:: K8s - Service
 - ## Load Balancer
 - {{embed [[K8s/Service - LoadBalancer]]}}
 - ## Reference
+	- [Kubernetes 那些事 — Service 篇](https://medium.com/andy-blog/kubernetes-%E9%82%A3%E4%BA%9B%E4%BA%8B-service-%E7%AF%87-d19d4c6e945f)
