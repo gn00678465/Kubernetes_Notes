@@ -4,7 +4,7 @@ alias:: Docker container 資料持久化
 
 - ## 概述
 - Docker 將資料儲存於 container 外的方法
-	- ![volumes on the Docker host](https://docs.docker.com/storage/images/types-of-mounts-volume.png)
+	- ![volumes on the Docker host](https://docs.docker.com/storage/images/types-of-mounts-volume.png){:height 34, :width 227}
 	- Bind Mount: 資料存在 Filesystem 中。
 	- Volume: 資料存在 Filesystem 內的 Docker Area 中。
 	- Tmpfs Mount: 資料存放在記憶體中。
