@@ -2,7 +2,7 @@ category:: Kubernetes
 type:: #K8s, #Monitoring
 alias:: K8s - Monitoring - StartupProbe, LivenessProbe
 
-- > **LivenessProbe**: 在 Pod 啟動時確認 Pod 自身的健康情況
+- > **StartupProbe**: 在 Pod 啟動時確認 Pod 自身的健康情況
   **LivenessProbe**: **持續**監控 Pod 自身的健康情況
 - ## yaml 模板
 - ```yaml
@@ -32,8 +32,3 @@ alias:: K8s - Monitoring - StartupProbe, LivenessProbe
                   successThreshold: 1
                   failureThreshold: 5
   ```
-- **initialDelaySeconds**
-- **timeoutSeconds**
-- **periodSeconds**
-- **successThreshold**
-- **failureThreshold**
