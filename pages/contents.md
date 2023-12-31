@@ -13,3 +13,4 @@
 	- [[K8s/ReplicaSet & Deployment]]
 	- [[K8s/Service]]
 	- [[K8s/Monitoring]]
+	- [[K8s/Rolling Updates]]

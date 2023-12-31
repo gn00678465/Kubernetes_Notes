@@ -2,6 +2,8 @@ category:: Kubernetes
 type:: #K8s
 alias:: K8s - ReplicaSet & Deployment
 
+- **Pods、ReplicaSets、Deployment 三者關係圖**
+- ![1_RY1KILK0XDzoO9cZNhIewg.webp](../assets/1_RY1KILK0XDzoO9cZNhIewg_1703989377570_0.webp)
 - ## ReplicaSet
 - {{embed [[K8s/ReplicaSet]]}}
 - ## Deployment
