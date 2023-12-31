@@ -1,6 +1,6 @@
 category:: Kubernetes
 type:: #K8s
-alias:: K8s - Monitoring - Rolling Updates
+alias:: K8s - Rolling Updates
 
 - ## yaml
 - ```yaml
