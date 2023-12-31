@@ -53,5 +53,7 @@ alias:: K8s - Monitoring - Rolling Updates
 		- `kubectl rollout pause deployment <deployment>`
 	- **繼續滾動升級**
 		- `kubectl rollout resume deployment <deployment>`
+	- `--record`
+		- 告知 Kubernetes **紀錄此次下達的指令**，如此一來更能清楚不同的版本(revision)間做了什麼操作
 - ## Reference
 	- [透過 Kubernetes Deployments 實現滾動升級](https://tachingchen.com/tw/blog/kubernetes-rolling-update-with-deployment/)
