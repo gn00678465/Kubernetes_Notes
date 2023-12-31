@@ -2,7 +2,7 @@ category:: Kubernetes
 type:: #K8s, #Monitoring
 alias:: K8s - Monitoring - Notes
 
-- ## StartupProbe, LivenessProbe 的參數設定
+- ## Probe 的參數設定
 - |參數|描述|預設值|
   |--|--|--|
   |initialDelaySeconds|container 運行後 probe 才開始運作|0|
