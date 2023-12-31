@@ -12,3 +12,6 @@
 	- [[K8s/minikube 相關指令]]
 	- [[K8s/ReplicaSet & Deployment]]
 	- [[K8s/Service]]
+	- [[K8s/Monitoring]]
+	- [[K8s/Rolling Updates]]
+	- [[K8s/Roll Back]]
