@@ -4,7 +4,9 @@ alias:: minikube 相關指令
 
 - **建立 cluster**
 	- `minikube start --driver=docker`
-		- **driver**: `docker` | `hyperv`
+		- **參數**
+		- **--driver**: `docker` | `hyperv`
+		- **--mount**
 	- `minikube status`
 	- `minikube dashboard`
 		- Integrated support for the [Kubernetes Dashboard UI](https://github.com/kubernetes/dashboard).
@@ -13,6 +15,8 @@ alias:: minikube 相關指令
 	- `minikube kubectl -- describe nodes <node_name>`
 - **查看所有 pods**
 	- `minikube kubectl -- get po -A`
+- **互動模式**
+	- `minikube kubectl -- exec -it <pod_name> -- [command]`
 - **部署 deployments**
 	- `minikube kubectl -- create deployment <deployment_name> --image=<image>`
 	- `minikube kubectl -- get deployments`
