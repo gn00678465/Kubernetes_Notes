@@ -27,7 +27,7 @@ alias:: minikube 相關指令
 - **開放 service**
 	- `minikube kubectl -- expose deployment <pod_name> --port=<port>`
 	- `minikube kubectl -- get services`
-	- `minikube kubectl -- describe <service_name>`
+	- `minikube kubectl -- describe service <service_name>`
 - **開放 cluster 連線到外部**
 	- `minikube kubectl service <service_name>`
 	- or
