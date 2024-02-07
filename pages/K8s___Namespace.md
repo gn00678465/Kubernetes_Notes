@@ -2,7 +2,14 @@ category:: Kubernetes
 type:: #K8s
 alias:: K8s - Namespace
 
-- > namespace
+- > **namespace** 其實就是實現**資源隔離**的方式，不同的 **namespaces** 的物件無法互相存取。
+- {{embed ((65c3a5cf-c826-44b1-8f1e-efb0e57010a2))}}
+- **預設的 namespaces**
+- |--|--|
+  |default|預設命名空間，創建物件、服務時，如未指定空間則就分配於此空間中。|
+  |kube-node-lease||
+  |kube-public|存放在裡面的物件可被所有的使用者讀取|
+  |kube-system|The namespace for objects created by the Kubernetes system.|
 - ## yaml
 - ```yaml
   apiVersion: v1
