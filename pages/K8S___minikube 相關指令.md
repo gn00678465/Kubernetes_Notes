@@ -71,3 +71,6 @@ alias:: minikube 相關指令
 - **刪除 cluster**
 	- `minikube stop`
 	- `minikube delete`
+-
+- ## Reference
+	- [常見的 kubectl 指令](https://ithelp.ithome.com.tw/articles/10203675)
