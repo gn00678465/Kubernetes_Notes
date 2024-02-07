@@ -38,6 +38,8 @@ alias:: minikube 相關指令
 	  id:: 658a2340-80db-4269-a93a-5744f9df64e3
 - **關閉開放到外部的 cluster 連線**
 	- `kill [kubectl_PID]`
+- **查看 default storageclass**
+	- `minikube kubectl -- get storageclass`
 - **刪除 service**
 	- `minikube kubectl -- delete service <service_name>`
 	- `minikube kubectl -- delete services --all`

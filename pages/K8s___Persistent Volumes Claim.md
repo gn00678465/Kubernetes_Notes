@@ -12,12 +12,13 @@ alias:: K8s - Persistent Volumes Claim
   spec:
     storageClassName: sc-001
     accessModes:
-      - ReadWriteMany
+    - ReadWriteMany
     resources:
       requests:
         storage: 2Gi
   ```
 - **參數**
+	- `spec.storageClassName`: 必須與 **PseristenVolume** 的 `spec.storageClassName` 相匹配
 	- `spec.accessModes`: 與 PV 設定相同
 	- `spec.resource.request.storage`: 設定 PVC 所需要的資源量
 	- `spec.storageClassName`: 將 PVC 與 PV 連結所需

@@ -29,13 +29,10 @@ alias:: K8s - Persistent Volumes (PV) & Claim (PVC)
 - **參數**
 	- `spec.containers.volumeMounts`: 指定掛載的目錄
 	- `spec.containers.volumeMounts.name`: 必須與 `volumes.name` 相同
-	- `spec.containers.volumeMounts.mountPath`: 容器內對應的路徑
+	- `spec.containers.volumeMounts.mountPath`: container 內對應的路徑
 	- `spec.volumes`
-	- `spec.volumes.name`: 必須與 `spec.containers.volumeMounts.name` 相同
+	- `spec.volumes.name`: 必須對應 `spec.containers.volumeMounts.name`
 	- `spec.volumes.persistentVolumeClaim`
 	- `spec.volumes.persistentVolumeClaim.claimName`: 掛載 PVC 名稱
-- ## Notes
-	- **PV** 模板中的 `spec.storageClassName` 必須與 **PVC** 模板中的 `spec.storageClassName` 相同才能對應
-	  logseq.order-list-type:: number
 - ## Reference
 	- [K8S la8(PV & PVC)](https://hackmd.io/@S_HP7z6qQmC4l2tX34ATug/SkxaIVZQ5)
