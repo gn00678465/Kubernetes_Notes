@@ -1,6 +1,6 @@
 category:: Kubernetes
 type:: #K8s, #Service
-alias:: K8s - Service
+alias:: K8s - Services
 
 - ## Cluster IP
 - {{embed [[K8s/Service - ClusterIP]]}}
