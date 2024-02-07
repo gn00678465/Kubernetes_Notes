@@ -16,3 +16,5 @@
 	- [[K8s/Rolling Updates]]
 	- [[K8s/Roll Back]]
 	- [[K8s/Persistent Volumes (PV) & Claim (PVC)]]
+	- [[K8s/Dynamic Provisioning]]
+	- [[K8s/Namespace]]

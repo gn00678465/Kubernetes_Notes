@@ -40,6 +40,9 @@ alias:: minikube 相關指令
 	- `kill [kubectl_PID]`
 - **查看 default storageclass**
 	- `minikube kubectl -- get storageclass`
+- **查看 namespace**
+  id:: 65c3714e-23b4-4bc5-a9fa-7af7693ff7c2
+	- `minikube kubectl -- get namespace`
 - **刪除 service**
 	- `minikube kubectl -- delete service <service_name>`
 	- `minikube kubectl -- delete services --all`
