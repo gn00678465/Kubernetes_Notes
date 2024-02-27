@@ -34,3 +34,6 @@ alias:: 使用 systemd 管理 podman container
 		  sudo systemctl --user start <systemd_name>.service
 		  sudo systemctl --user status <systemd_name>.service
 		  ```
+- 可透過 `pstree` 來看 **systemd** 與 **podman** 的 container 的互動
+- ## Reference
+	- [WSL2 中使用 systemd 管理 podman 的 container](https://www.omegaatt.com/blogs/develop/2023/wsl2_systemd_podman.html)
