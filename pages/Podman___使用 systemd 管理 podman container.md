@@ -7,12 +7,13 @@ alias:: 使用 systemd 管理 podman container
 - ```bash
   podman generate systemd --new --files --name <systemd_name>
   ```
-- 複製 systemd service file
+- 建立並複製 systemd service file
 	- **rootless container**
+		- > 假設沒有資料夾需要新增
 		- ```bash
 		  mkdir -p ~/.config/systemd/user
 		  ```
-	- copy
+		- **copy**
 		- ```bash
 		  cp -Z <systemd_name>.service ~/.config/systemd/user
 		  ```
